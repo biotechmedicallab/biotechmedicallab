@@ -1,57 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Biotech Medical Lab</title>
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#17324d;background:#f5fbff}
-header{background:#087f8c;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
-.logo{font-size:25px;font-weight:bold}.nav a{color:white;text-decoration:none;margin:0 10px}
-.hero{padding:75px 7%;text-align:center;background:linear-gradient(135deg,#e5fbff,#fff)}
-.hero h1{font-size:42px;margin:10px 0;color:#086b78}.hero p{font-size:19px}
-.btn{display:inline-block;background:#087f8c;color:white;padding:13px 24px;border-radius:8px;text-decoration:none;margin-top:15px}
-section{padding:45px 7%;max-width:1200px;margin:auto}h2{text-align:center;color:#086b78}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
-.card{background:white;padding:24px;border-radius:12px;box-shadow:0 3px 12px #0001;text-align:center}
-.contact{text-align:center;background:#e8f8fa;border-radius:15px}
-footer{text-align:center;background:#17324d;color:white;padding:20px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biotech Medical Laboratory | Peshawar</title>
+  <meta name="description" content="Biotech Medical Laboratory near Khyber Teaching Hospital, University Town, Peshawar. Laboratory testing, health packages and same-day reporting.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div class="logo">Biotech Medical Lab</div>
-<div class="nav"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#home">BIOTECH <span>MEDICAL LABORATORY</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="call" href="tel:+923339009442">Call Now</a>
+  </div>
 </header>
 
-<div class="hero">
-<h1>Biotech Medical Lab</h1>
-<p>Reliable laboratory testing with accurate, timely and trusted results.</p>
-<a class="btn" href="#contact">Contact Laboratory</a>
-</div>
-
-<section id="services">
-<h2>Our Laboratory Services</h2>
-<div class="cards">
-<div class="card"><h3>Hematology</h3><p>CBC and blood-related laboratory testing.</p></div>
-<div class="card"><h3>Biochemistry</h3><p>Liver, kidney, glucose, lipid and other tests.</p></div>
-<div class="card"><h3>Hormones</h3><p>Thyroid, fertility and other hormone tests.</p></div>
-<div class="card"><h3>Serology</h3><p>Screening and diagnostic serology tests.</p></div>
-</div>
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">TRUSTED DIAGNOSTIC CARE</p>
+      <h1>Accurate Laboratory Testing. <span>Reliable Results.</span></h1>
+      <p class="lead">Biotech Medical Laboratory provides quality diagnostic testing and health screening in University Town, Peshawar.</p>
+      <div class="buttons">
+        <a class="btn primary" href="tel:+923339009442">Call 0333 9009442</a>
+        <a class="btn secondary" href="#packages">View Packages</a>
+      </div>
+      <div class="quick">
+        <div><b>✓</b> Reliable testing</div>
+        <div><b>✓</b> Fast reporting</div>
+        <div><b>✓</b> Patient-focused service</div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="images/full-body-checkup.jpg" alt="Biotech Medical Laboratory full body checkup">
+    </div>
+  </div>
 </section>
 
-<section id="about">
-<h2>About Biotech Medical Lab</h2>
-<p style="text-align:center;line-height:1.8">We provide dependable diagnostic laboratory services with a focus on accuracy, timely reporting and patient care.</p>
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">OUR SERVICES</p>
+      <h2>Laboratory tests for your health needs</h2>
+      <p>From routine blood work to complete health screening, get your tests from one place.</p>
+    </div>
+    <div class="service-grid">
+      <article><div class="icon">🩸</div><h3>CBC</h3><p>Complete Blood Count and routine hematology testing.</p></article>
+      <article><div class="icon">🧪</div><h3>LFT / RFT</h3><p>Liver and kidney function testing for health assessment.</p></article>
+      <article><div class="icon">❤️</div><h3>Health Screening</h3><p>Comprehensive packages for preventive health checks.</p></article>
+      <article><div class="icon">🔬</div><h3>Specialized Tests</h3><p>Selected vitamin, hormone, infection and other diagnostic tests.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="packages" class="section soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">POPULAR PACKAGES</p>
+      <h2>Health packages</h2>
+      <p>Promotional packages shown in our current laboratory artwork.</p>
+    </div>
+    <div class="package-grid">
+      <article class="package"><img src="images/family-package.png" alt="Family health package"><div class="pbody"><h3>Family Health Package</h3><p>CBC + HbA1c + Lipid Profile.</p><a href="tel:+923339009442">Ask for current price →</a></div></article>
+      <article class="package"><img src="images/anemia-package.jpg" alt="Anemia health package"><div class="pbody"><h3>Anemia Health Package</h3><p>CBC, Ferritin, Vitamin B12 and Folate.</p><a href="tel:+923339009442">Ask for current price →</a></div></article>
+      <article class="package"><img src="images/lft-package.jpg" alt="Liver Function Test package"><div class="pbody"><h3>Liver Function Test</h3><p>Complete LFT panel for liver health assessment.</p><a href="tel:+923339009442">Book LFT →</a></div></article>
+      <article class="package"><img src="images/cbc-package.jpg" alt="CBC blood test"><div class="pbody"><h3>CBC Blood Test</h3><p>Complete blood count with fast reporting.</p><a href="tel:+923339009442">Book CBC →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">WHY BIOTECH?</p>
+      <h2>Testing designed around patients</h2>
+      <ul class="checks">
+        <li>Quality-focused laboratory workflow</li>
+        <li>Fast report delivery for selected tests</li>
+        <li>WhatsApp-friendly communication</li>
+        <li>Convenient University Town location</li>
+      </ul>
+      <a class="btn primary" href="https://wa.me/923339009442">WhatsApp / Book Test</a>
+    </div>
+    <img class="round-img" src="images/same-day-report.jpg" alt="Same day report service">
+  </div>
+</section>
+
+<section id="about" class="section soft">
+  <div class="container split">
+    <img class="round-img" src="images/ceo-lab-incharge.png" alt="CEO and Lab Incharge Faheem Khan">
+    <div>
+      <p class="eyebrow">ABOUT BIOTECH</p>
+      <h2>Biotech Medical Laboratory</h2>
+      <p>Biotech Medical Laboratory is presented as a patient-focused diagnostic laboratory serving the University Town area of Peshawar.</p>
+      <h3>CEO & Lab Incharge</h3>
+      <p class="name">FAHEEM KHAN</p>
+      <p>For test availability, prices and report timing, please contact the laboratory directly.</p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">HEALTH INFORMATION</p><h2>Latest laboratory posts</h2></div>
+    <div class="gallery-grid">
+      <img src="images/post-vitamin.jpg" alt="Vitamin D and B12 health information">
+      <img src="images/parents-checkup.jpg" alt="Parents health checkup message">
+      <img src="images/health-question.jpg" alt="Health awareness post">
+      <img src="images/ceo-lab-incharge.png" alt="Biotech Medical Laboratory team">
+    </div>
+  </div>
 </section>
 
 <section id="contact" class="contact">
-<h2>Contact Us</h2>
-<p><strong>Biotech Medical Lab</strong></p>
-<p>For appointments, test information and reports, please contact the laboratory.</p>
-<a class="btn" href="tel:+920000000000">Call Laboratory</a>
+  <div class="container contact-grid">
+    <div>
+      <p class="eyebrow">CONTACT US</p>
+      <h2>Book your laboratory test</h2>
+      <p>Near Khyber Teaching Hospital, University Town, Peshawar</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn primary" href="tel:+923339009442">0333 9009442</a>
+      <a class="btn secondary" href="https://wa.me/923339009442">WhatsApp</a>
+    </div>
+  </div>
 </section>
+</main>
 
-<footer>© 2026 Biotech Medical Lab. All rights reserved.</footer>
+<footer>
+  <div class="container footer">
+    <div><b>BIOTECH MEDICAL LABORATORY</b><br><span>Near Khyber Teaching Hospital, University Town, Peshawar</span></div>
+    <div>© 2026 Biotech Medical Laboratory</div>
+  </div>
+</footer>
 </body>
 </html>

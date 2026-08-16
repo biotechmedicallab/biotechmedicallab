@@ -1,1 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biotech Medical Laboratory | Peshawar</title>
 
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f9fc;
+    color:#17324d;
+    line-height:1.6;
+}
+header{
+    background:linear-gradient(135deg,#087f8c,#075985);
+    color:white;
+    padding:22px 6%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.logo{
+    font-size:25px;
+    font-weight:bold;
+}
+.logo span{color:#b9f3ff}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+.hero{
+    min-height:480px;
+    padding:70px 7%;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#e8fbff,#ffffff);
+}
+.hero-content{max-width:700px}
+.hero h1{
+    font-size:48px;
+    line-height:1.15;
+    color:#075985;
+    margin-bottom:20px;
+}
+.hero h1 span{color:#0891b2}
+.hero p{
+    font-size:19px;
+    color:#526779;
+    margin-bottom:28px;
+}
+.btn{
+    display:inline-block;
+    padding:14px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    margin:5px;
+}
+.primary{background:#087f8c;color:white}
+.whatsapp{background:#16a34a;color:white}
+section{padding:60px 7%}
+.title{
+    text-align:center;
+    margin-bottom:35px;
+}
+.title h2{
+    color:#075985;
+    font-size:32px;
+}
+.title p{color:#667788}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:22px;
+}
+.card{
+    background:white;
+    padding:28px;
+    border-radius:16px;
+    box-shadow:0 8px 25px rgba(0,0,0,.07);
+    text-align:center;
+}
+.card h3{color:#087f8c;margin:12px 0}
+.icon{font-size:40px}
+.package{
+    border-top:4px solid #0891b2;
+}
+.contact{
+    background:#075985;
+    color:white;
+}
+.contact .title h2{color:white}
+.contact-box{
+    max-width:700px;
+    margin:auto;
+    background:rgba(255,255,255,.1);
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+}
+footer{
+    background:#062f49;
+    color:#d7edf5;
+    text-align:center;
+    padding:25px;
+    font-size:14px;
+}
+@media(max-width:600px){
+    .hero h1{font-size:36px}
+    nav{width:100%}
+    nav a{display:inline-block;margin:5px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🧬 Biotech <span>Medical Laboratory</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tests">Tests</a>
+        <a href="#packages">Packages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Reliable <span>Medical Testing</span> You Can Trust</h1>
+        <p>
+            Accurate, timely and trusted laboratory testing services
+            at Biotech Medical Laboratory, Peshawar.
+        </p>
+
+        <a class="btn primary" href="#tests">View Tests</a>
+        <a class="btn whatsapp"
+           href="https://wa.me/923339009442"
+           target="_blank">
+           WhatsApp Us
+        </a>
+    </div>
+</section>
+
+<section id="tests">
+    <div class="title">
+        <h2>Our Laboratory Services</h2>
+        <p>Quality diagnostic testing for better healthcare decisions.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🩸</div>
+            <h3>Hematology</h3>
+            <p>CBC, ESR and other blood investigations.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🧪</div>
+            <h3>Clinical Chemistry</h3>
+            <p>Liver, kidney, glucose, lipid and related tests.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🦠</div>
+            <h3>Microbiology</h3>
+            <p>Routine microbiological and infection testing.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔬</div>
+            <h3>Immunology</h3>
+            <p>Specialized antibodies and immunological tests.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="packages">
+    <div class="title">
+        <h2>Popular Health Packages</h2>
+        <p>Ask our laboratory about available health screening packages.</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card package">
+            <h3>Basic Health Package</h3>
+            <p>CBC + Blood Sugar + Liver & Kidney Screening</p>
+        </div>
+
+        <div class="card package">
+            <h3>Diabetes Screening</h3>
+            <p>Blood Glucose + HbA1c and related investigations</p>
+        </div>
+
+        <div class="card package">
+            <h3>Liver Profile</h3>
+            <p>ALT, AST, Bilirubin and other liver investigations</p>
+        </div>
+
+        <div class="card package">
+            <h3>Kidney Profile</h3>
+            <p>Creatinine, Urea and related kidney investigations</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="title">
+        <h2>Contact Biotech Medical Laboratory</h2>
+        <p>We are here to help with your laboratory testing needs.</p>
+    </div>
+
+    <div class="contact-box">
+        <h3>📍 Location</h3>
+        <p>
+            Near Khyber Teaching Hospital,<br>
+            University Town, Peshawar
+        </p>
+
+        <br>
+
+        <h3>📞 Phone / WhatsApp</h3>
+        <p>0333-9009442</p>
+
+        <br>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/923339009442"
+           target="_blank">
+           Chat on WhatsApp
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Biotech Medical Laboratory — Peshawar
+</footer>
+
+</body>
+</html>
